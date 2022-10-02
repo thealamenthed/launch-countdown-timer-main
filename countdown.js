@@ -39,6 +39,7 @@ function refreshcCountdown() {
  * Met à jour la structure HTML en fonction d'un nouvel interval
  * @param {{days: number, hours: number, minutes: number, secondes: number}} diff
  */
+
 // On va envoyer cet objet à une fonction qui mettre à jour l'HTML
 function updateDom(diff) {
   Object.keys(diff).forEach((key) => {
